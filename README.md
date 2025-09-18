@@ -1,6 +1,7 @@
 # GMAX4002 breakout board
 A basic minimum GMAX4002 (1/1.7" 2048x1200 Global shutter) breakout board for Raspberry Pi
 <img width="1891" height="1687" alt="image" src="https://github.com/user-attachments/assets/1bac498b-cdf8-45dd-bca5-283d80d76c7a" />
+<img width="2694" height="1881" alt="image" src="https://github.com/user-attachments/assets/29a38644-9c9d-485d-a83d-7bc2c0db1593" />
 
 In general this is a simple breakout board for GMAX4002 sensor, see [here](https://github.com/will127534/gmax4002-v4l2-driver) on the driver side of things.
 The caveat is that you will need to supply trigger pulses to the TEXP test point in order to trigger a new frame from the sensor and the board will not generate that signal for you, as such this is not really a complete board in my opinion but it might be easier for those who are taking this to integrate in their project.  
